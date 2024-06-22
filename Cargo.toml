@@ -1,0 +1,19 @@
+[package]
+name = "screenmonitor"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tokio = { version = "1.38.0", features = ["full"] }
+windows = "0.57.0"
+tracing = "0.1.40"
+tracing-subscriber = { version = "0.3.18", features = ["env-filter"] }
+tracing-appender = "0.2.3"
+anyhow = "1.0.83"
+uuid = {  version = "1.8.0", features = ["v4"] }
+chrono = "0.4.38"
+regex = "1.10.5"
+tokio-process = "0.2.5"
+futures = "0.3.30"
+subprocess = "0.2.9"
+winreg = { version = "0.52.0", features = ["transactions"] }
